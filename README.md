@@ -1,55 +1,37 @@
-ribuição dos salários por cargo.
+# 📊 Dashboard de Salários na Área de Dados
 
-Comparação de salários médios por país.
+Este projeto é um dashboard interativo feito com **Streamlit** e **Plotly Express** para análise de salários na área de dados.  
+Você pode filtrar por ano, nível de experiência, tipo de contrato e porte da empresa, e visualizar métricas e gráficos para tomar decisões baseadas em dados reais.
 
-Top empregos por quantidade de vagas.
+---
 
-Evolução mensal do salário médio por país.
+## 🚀 Funcionalidades
 
-🛠 Tecnologias Utilizadas
-Python 3
+- Filtros dinâmicos para explorar os dados.
+- Métricas principais: salário médio, máximo, mínimo e país com maior salário.
+- Gráficos interativos:  
+  - Top 10 cargos por salário médio anual.  
+  - Distribuição de salários anuais.  
+  - Proporção de tipos de trabalho (Presencial, Híbrido, Remoto).  
+  - Distribuição do porte das empresas.  
+  - Top 10 cargos com mais empregos.  
+  - Top 10 países por salário mensal médio (USD).  
+- Tabela detalhada dos dados filtrados.
 
-Pandas → Tratamento e análise de dados
+---
 
-Matplotlib → Visualização gráfica
+## 🛠 Tecnologias Utilizadas
 
-Seaborn → Visualização estilizada
+- Python 3.9+  
+- [Streamlit](https://streamlit.io/)  
+- [Plotly Express](https://plotly.com/python/plotly-express/)  
+- Pandas
 
-📂 Estrutura do Projeto
-bash
-Copiar
-Editar
-📁 projeto-salarios
-│-- 📄 analise_salarios.py   # Código principal
-│-- 📄 dados.xlsx            # Base de dados
-│-- 📄 README.md             # Documentação
-📈 Exemplos de Gráficos
-Distribuição dos Salários por Cargo
+---
 
-Salário Médio por País
+## 📦 Como rodar o projeto
 
-Maiores Cargos por Quantidade de Empregos
-
-Valores Mensais de Salário por País
-
-🚀 Como Executar
-Clone este repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/projeto-salarios.git
-Instale as dependências:
-
-bash
-Copiar
-Editar
-pip install pandas matplotlib seaborn
-Execute o script:
-
-bash
-Copiar
-Editar
-python analise_salarios.py
-📜 Licença
-Este projeto está sob a licença MIT – Sinta-se livre para usar e modificar.
+1. Clone o repositório:  
+```bash
+git clone https://github.com/seuusuario/analise-salarios-dados.git
+cd analise-salarios-dados
